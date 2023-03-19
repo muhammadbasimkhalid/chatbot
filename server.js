@@ -29,22 +29,22 @@ app.post("/dialogflow", async (req, res) => {
                 {
                   "options": [
                     {
-                      "text": "Dr. Issa Nagari"
+                      "text": "Fee structure"
                     },
                     {
-                      "text": "Prof. Amir"
+                      "text": "set up an appointmnet"
                     },
                     {
-                      "text": "Dr. Jhon patrick"
+                      "text": "duration"
                     },
                     {
-                      "text": "Sara kirchoff"
+                      "text": "courses"
                     },
                     {
                       "text": "location"
                     }
                   ],
-                  "type": "chips"
+                  "type": "contact no"
                 }
               ]
             ]
